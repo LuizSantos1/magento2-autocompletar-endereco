@@ -1,0 +1,1 @@
+var config={map:{"*":{mask:"Koan_Autocomplete/js/mask"}}};

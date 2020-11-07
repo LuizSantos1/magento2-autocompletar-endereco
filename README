@@ -1,0 +1,5 @@
+
+- instalar biblioteca:
+composer require cagartner/phpquery
+
+php bin/magento setup:upgrade

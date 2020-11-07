@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) 2015 X.commerce, Inc. (http://www.magentocommerce.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Koan\Autocomplete\Api\ConsultaInterface" type="Koan\Autocomplete\Model\Consulta" />
+    <type name="Koan\Autocomplete\Model\Consulta">
+        <arguments>
+            <argument name="modelRegion" xsi:type="object">Magento\Directory\Model\Region</argument>
+        </arguments>
+    </type>
+</config>

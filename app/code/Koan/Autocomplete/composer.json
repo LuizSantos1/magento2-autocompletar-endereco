@@ -1,0 +1,22 @@
+{
+    "name": "koan/autocomplete",
+    "description": "Modulo autocomletar endereço cep magento 2",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "require": {
+        "php": "~5.5.0|~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "cagartner/phpquery": ">=0.9.8",
+        "ext-soap": "*"
+    },
+      "type": "magento2-module",
+      "version": "0.0.1",
+      "license": [
+        "OSL-3.0"
+      ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
